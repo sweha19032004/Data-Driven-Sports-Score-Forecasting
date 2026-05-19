@@ -13,23 +13,22 @@ The dataset used for this analysis is a cricket match dataset that contains seve
 
 **Techniques Used**:
 
-1.Data Preprocessing
-2.Data Cleaning
-3.Feature Engineering
-4. Correlation Analysis
-5. Data Splitting
-6. Model Training and Evaluation
+1.Data Preprocessing<br/>
+2.Data Cleaning<br/>
+3.Feature Engineering<br/>
+4. Correlation Analysis<br/>
+5. Data Splitting<br/>
+6. Model Training and Evaluation<br/>
    
   i. Linear Regression: A basic regression technique that models the relationship between the dependent variable and one or more independent variables by fitting a linear equation to observed data.<br/>
-            •	Performance Metrics: Evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
+            •	Performance Metrics: Evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).<br/>
 
   ii.Random Forest Regression: An ensemble learning method that constructs multiple decision trees during training and outputs the mean prediction of individual trees to improve predictive accuracy and control over-fitting.<br/>
-           •	Performance Metrics: Similar to Linear Regression, evaluated using MAE, MSE, and RMSE.
+           •	Performance Metrics: Similar to Linear Regression, evaluated using MAE, MSE, and RMSE.<br/>
            
   iii.Neural Network Regression : A type of artificial neural network used for regression tasks. In this case, an MLP (Multilayer Perceptron) with a logistic activation function was trained.
        <br/>
-           •	Performance Metrics: Evaluated using MAE, MSE, and RMSE.
-
+           •	Performance Metrics: Evaluated using MAE, MSE, and RMSE.<br/>
 7. Model Performance Comparison:
 Visualization: The performance of different models was compared by plotting their accuracy scores using Seaborn’s barplot, providing a clear visual representation of how each model performed in terms of predictive accuracy.
 
