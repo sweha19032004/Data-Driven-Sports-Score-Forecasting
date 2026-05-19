@@ -29,6 +29,7 @@ The dataset used for this analysis is a cricket match dataset that contains seve
   iii.Neural Network Regression : A type of artificial neural network used for regression tasks. In this case, an MLP (Multilayer Perceptron) with a logistic activation function was trained.
        <br/>
            •	Performance Metrics: Evaluated using MAE, MSE, and RMSE.<br/>
+           <br/>
 7. Model Performance Comparison:
 Visualization: The performance of different models was compared by plotting their accuracy scores using Seaborn’s barplot, providing a clear visual representation of how each model performed in terms of predictive accuracy.
 
