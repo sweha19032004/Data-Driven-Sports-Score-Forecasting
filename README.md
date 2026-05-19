@@ -12,23 +12,24 @@ The dataset used for this analysis is a cricket match dataset that contains seve
 ---
 
 **Techniques Used**: 
-# 1.Data Preprocessing
-# 2.Data Cleaning
-# 3.Feature Engineering
-# 4. Correlation Analysis:
-# 5. Data Splitting:
-# 6. Model Training and Evaluation:
+1.Data Preprocessing
+2.Data Cleaning
+3.Feature Engineering
+4. Correlation Analysis
+5. Data Splitting
+6. Model Training and Evaluation
 
-  1. Linear Regression: A basic regression technique that models the relationship between the dependent variable and one or more independent variables by fitting a linear equation to observed data.
+  1. Linear Regression: A basic regression technique that models the relationship between the dependent variable and one or more independent variables by fitting a linear equation to observed data.<br/>
             •	Performance Metrics: Evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
 
-  2.Random Forest Regression: An ensemble learning method that constructs multiple decision trees during training and outputs the mean prediction of individual trees to improve predictive accuracy and control over-fitting.
+  2.Random Forest Regression: An ensemble learning method that constructs multiple decision trees during training and outputs the mean prediction of individual trees to improve predictive accuracy and control over-fitting.<br/>
            •	Performance Metrics: Similar to Linear Regression, evaluated using MAE, MSE, and RMSE.
 
-       3.Neural Network Regression : A type of artificial neural network used for regression tasks. In this case, an MLP (Multilayer Perceptron) with a logistic activation function was trained.
+       3.Neural Network Regression : A type of artificial neural network used for regression tasks. In this case, an MLP (Multilayer Perceptron) with a logistic activation function was trained.<br/>
            •	Performance Metrics: Evaluated using MAE, MSE, and RMSE.
 
-# 7. Model Performance Comparison:
+
+ 7. Model Performance Comparison:
 
 Visualization: The performance of different models was compared by plotting their accuracy scores using Seaborn’s barplot, providing a clear visual representation of how each model performed in terms of predictive accuracy.
 
@@ -37,14 +38,18 @@ Visualization: The performance of different models was compared by plotting thei
 **Algorithm Used :**
 
 •	Linear Regression
+
 •	Random Forest Regression
+
 •	Neural Network Regression
 
 ---
 To run the file:
 
 #1. **Install dependencies**:
+
 pip install -r requirements.txt
 
 #2.**Run the file**:
+
 python Data-Driven-Sports-Score-Forecasting.py
